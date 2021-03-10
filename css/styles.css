@@ -1,21 +1,26 @@
 .body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  background: #f5f4fa;
-  color: #757575;
-}
-/*  color: #212121;
-color: #757575;
-background: #F5F4FA;
-*/
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 1130px;
 
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
 ul {
   list-style: none;
 }
 p {
   color: #757575;
 }
-.logo {
+.logos {
   position: absolute;
   width: 145px;
   height: 31px;
@@ -30,10 +35,17 @@ p {
   /* identical to box height */
 
   letter-spacing: 0.03em;
-
-  color: #0d0d0e;
+  color: black;
 }
-.top-nav {
+.logos:hover,
+.logos:focus {
+  color: #2196f3;
+}
+.logos1 {
+  color: #2196f3;
+}
+
+.header-nav {
   position: absolute;
   width: 1600px;
   height: 80px;
@@ -42,28 +54,11 @@ p {
 
   background: #ffffff;
 }
-.logo:hover,
-.logo:focus {
-  color: #2196f3;
-}
-
-.saite-nav {
+.studio {
   position: absolute;
-  width: 294px;
+  width: 49px;
   height: 16px;
   left: 453px;
-  top: 32px;
-  color: #0d0d0e;
-}
-.saite-nav:hover,
-.saite-nav:focus {
-  color: #2196f3;
-}
-.portfolio {
-  position: absolute;
-  width: 77px;
-  height: 16px;
-  left: 552px;
   top: 32px;
 
   font-family: Roboto;
@@ -75,9 +70,12 @@ p {
 
   color: #212121;
 }
-.portfolio:hover,
-.portfolio:focus {
-  color: #2196f3;
+.portfolio {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
 }
 .contacts {
   position: absolute;
@@ -95,296 +93,10 @@ p {
 
   color: #212121;
 }
-.contacts:hover,
-.contacts:focus {
-  color: #2196f3;
-}
-.mail {
+.mains {
   position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-
-.phone {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #757575;
-}
-
-.head {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-
-  background: #2f303a;
-}
-.head-text {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
-
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: #ffffff;
-  margin-top: 200px 452px 280px 452px;
-}
-.button-head {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-}
-.button-head:hover,
-.button-head:focus {
-  color: #2196f3;
-}
-
-.feature1 {
-  position: absolute;
-  width: 270px;
-  height: 101px;
+  width: 1170px;
+  height: 1360px;
   left: 215px;
-  top: 774px;
-}
-.feature2 {
-  position: absolute;
-  width: 270px;
-  height: 101px;
-  left: 515px;
-  top: 774px;
-}
-.feature3 {
-  position: absolute;
-  width: 270px;
-  height: 101px;
-  left: 815px;
-  top: 774px;
-}
-.feature4 {
-  position: absolute;
-  width: 270px;
-  height: 101px;
-  left: 1115px;
-  top: 774px;
-}
-.what-we-do {
-  position: absolute;
-  width: 615px;
-  height: 42px;
-  left: 490px;
-  top: 969px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.box1 {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 215px;
-  top: 1061px;
-}
-.box2 {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 615px;
-  top: 1061px;
-}
-.box3 {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 1015px;
-  top: 1061px;
-}
-.we {
-  position: absolute;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
-
-  background: #f5f4fa;
-}
-.we1 {
-  position: absolute;
-  width: 615px;
-  height: 42px;
-  left: 490px;
-  top: 94px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.team-card-1 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 200px;
-
-  background: #ffffff;
-  /* material shadow v1 */
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.team-card-2 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 515px;
-  top: 200px;
-  background: #ffffff;
-  /* material shadow v1 */
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.team-card-3 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 815px;
-  top: 200px;
-
-  background: #ffffff;
-  /* material shadow v1 */
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.team-card-4 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 1115px;
-  top: 200px;
-
-  background: #ffffff;
-  /* material shadow v1 */
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.ihor1 {
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.footer-nav {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
-
-  background: #2f303a;
-}
-.web {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 60px;
-
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-
-  color: #f9f9fa;
-}
-.address {
-  position: absolute;
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 100px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: #ffffff;
-}
-.contacts2 {
-  position: absolute;
-  width: 231px;
-  height: 21px;
-  left: 170px;
-  top: 120px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  color: #757575;
-}
-.logo1 {
-  color: #2196f3;
+  top: 174px;
 }

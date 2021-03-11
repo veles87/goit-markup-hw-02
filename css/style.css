@@ -167,7 +167,7 @@ p {
   position: absolute;
   width: 200px;
   height: 50px;
-  left: 700px;
+  left: 675px;
   top: 400px;
   padding: 10px 32px;
   margin: 10px 32px;
@@ -178,7 +178,10 @@ p {
 .buttons {
   color: #ffffff;
 }
-
+.buttons:hover,
+.buttons:focus{
+  color: #034275;
+}
 /*нпши приимущества*/
 .feature1 {
   position: absolute;

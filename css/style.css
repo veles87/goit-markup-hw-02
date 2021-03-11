@@ -177,10 +177,7 @@ p {
 .buttons {
   color: #ffffff;
 }
-.button-head:hover,
-.button-head:focus {
-  color: #2196f3;
-}
+
 /*нпши приимущества*/
 .feature1 {
   position: absolute;
@@ -550,12 +547,12 @@ p {
 /*фильтр*/
 .filters {
   position: absolute;
-  width: 611px;
+  width: 300px;
   height: 54px;
   left: 20px;
-  top: 174px;
+  top: 174px
 
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filters: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 /*навигация по проектам*/
 .vse {
@@ -563,7 +560,7 @@ p {
   width: 73px;
   height: 38px;
   left: 495px;
-  top: 174px;
+  top: 100px;
 
   background: #f5f4fa;
   border-radius: 4px;
@@ -573,7 +570,7 @@ p {
   width: 128px;
   height: 38px;
   left: 576px;
-  top: 174px;
+  top: 100px;
 
   background: #f5f4fa;
   border-radius: 4px;
@@ -583,7 +580,7 @@ p {
   width: 145px;
   height: 38px;
   left: 712px;
-  top: 174px;
+  top: 100px;
   background: #f5f4fa;
   border-radius: 4px;
 }
@@ -592,7 +589,7 @@ p {
   width: 103px;
   height: 38px;
   left: 865px;
-  top: 174px;
+  top: 100px;
 
   background: #f5f4fa;
   border-radius: 4px;
@@ -602,7 +599,7 @@ p {
   width: 130px;
   height: 38px;
   left: 976px;
-  top: 174px;
+  top: 100px;
 
   background: #f5f4fa;
   border-radius: 4px;
@@ -614,7 +611,7 @@ p {
   width: 370px;
   height: 404px;
   left: 215px;
-  top: 262px;
+  top: 70px;
 
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -626,7 +623,7 @@ p {
   width: 370px;
   height: 384px;
   left: 615px;
-  top: 262px;
+  top: 70px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
@@ -636,7 +633,7 @@ p {
   width: 370px;
   height: 404px;
   left: 1015px;
-  top: 262px;
+  top: 70px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
@@ -646,7 +643,7 @@ p {
   width: 370px;
   height: 404px;
   left: 215px;
-  top: 696px;
+  top: 500px;
 
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -657,7 +654,7 @@ p {
   width: 370px;
   height: 404px;
   left: 615px;
-  top: 696px;
+  top: 500px;
 
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -668,7 +665,7 @@ p {
   width: 370px;
   height: 404px;
   left: 1015px;
-  top: 696px;
+  top: 500px;
 
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -679,7 +676,7 @@ p {
   width: 370px;
   height: 404px;
   left: 215px;
-  top: 1130px;
+  top: 950px;
 
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -690,7 +687,7 @@ p {
   width: 370px;
   height: 404px;
   left: 615px;
-  top: 1130px;
+  top: 950px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
@@ -700,7 +697,7 @@ p {
   width: 370px;
   height: 404px;
   left: 1015px;
-  top: 1130px;
+  top: 950px;
 
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -712,7 +709,7 @@ p {
   width: 1600px;
   height: 252px;
   left: 0px;
-  top: 2097px;
+  top: 1800px;
 
   background: #2f303a;
 }

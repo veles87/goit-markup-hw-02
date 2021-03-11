@@ -332,11 +332,12 @@ p {
 .footer-nav {
   position: absolute;
   width: 1600px;
-  height: 252px;
+  height: 648px;
   left: 0px;
-  top: 2097px;
+  top: 1449px;
 
-  background: #2f303a;
+
+background: #2F303A;
 }
 .web {
   position: absolute;
@@ -709,7 +710,7 @@ p {
   width: 1600px;
   height: 252px;
   left: 0px;
-  top: 1800px;
+  top: 2097px;
 
   background: #2f303a;
 }
@@ -754,7 +755,7 @@ p {
   position: absolute;
   width: 231px;
   height: 21px;
-  left: 170px;
+  left: 215px;
   top: 120px;
 
   font-family: Roboto;
@@ -766,6 +767,44 @@ p {
 
   color: #757575;
 }
+
+.contacts3 {
+  
+position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 140px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.contacts4 {
+  
+position: absolute;
+width: 231px;
+height: 21px;
+left: 170px;
+top: 110px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);}
 .logo1 {
   color: #2196f3;
 }

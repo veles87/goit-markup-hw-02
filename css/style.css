@@ -268,6 +268,7 @@ border-radius: 4px;
 
   color: #212121;
 }
+
 .box1 {
   position: absolute;
   width: 370px;
@@ -375,12 +376,11 @@ border-radius: 4px;
 .footer-nav {
   position: absolute;
   width: 1600px;
-  height: 648px;
+  height: 252px;
   left: 0px;
-  top: 1449px;
+  top: 2097px;
 
-
-background: #2F303A;
+  background: #2f303a;
 }
 .web {
   position: absolute;

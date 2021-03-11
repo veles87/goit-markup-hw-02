@@ -48,12 +48,20 @@ p {
 }
 
 .saite-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
   position: absolute;
   width: 294px;
   height: 16px;
   left: 453px;
   top: 32px;
-  color: #0d0d0e;
+
+  
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 .saite-nav:hover,
 .saite-nav:focus {
@@ -846,4 +854,7 @@ top: 165px;
   letter-spacing: 0.02em;
 
   color: #757575;
+}
+.visually {
+display: none;
 }

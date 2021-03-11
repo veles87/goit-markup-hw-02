@@ -569,6 +569,7 @@ p {
  
   background: #f5f4fa;
   border-radius: 4px;
+  cursor: pointer;
 }
 .sites {
   position: absolute;
@@ -579,6 +580,7 @@ p {
 
   background: #f5f4fa;
   border-radius: 4px;
+  cursor: pointer;
 }
 .apps {
   position: absolute;
@@ -588,6 +590,7 @@ p {
   top: 100px;
   background: #f5f4fa;
   border-radius: 4px;
+  cursor: pointer;
 }
 .decinger {
   position: absolute;
@@ -598,6 +601,7 @@ p {
 
   background: #f5f4fa;
   border-radius: 4px;
+  cursor: pointer;
 }
 .marketings {
   position: absolute;
@@ -608,6 +612,7 @@ p {
 
   background: #f5f4fa;
   border-radius: 4px;
+cursor: pointer;
 }
 
 /*наши проекты*/

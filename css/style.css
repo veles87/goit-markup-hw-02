@@ -1,9 +1,17 @@
 /*фон основной страницы*/
+:root  {
+    --text-general-font: "Roboto",  sans-serif;
+    --prymory-text-color: #757575;
+    --title-text-color: #212121;
+    --whiet-text-color: #ffffff;
+    --hover-focus-color: #2196f3;
+    --black-text-color: #000000;
+    --background-fone: #2f303a;
+}
 .body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  background: #f5f4fa;
-  color: #757575;
+  font-family: "Raleway", sans-serif;
+  background-color: #fff;
 }
 
 a {
@@ -13,107 +21,61 @@ ul {
   list-style: none;
 }
 p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
   color: #757575;
 }
-/*логотип основной страницы*/
-.logo {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
 
+.logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+  color: #2196f3;
+}
+.logotip {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
 
   letter-spacing: 0.03em;
-
-  color: #0d0d0e;
-}
-.top-nav {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-
-  background: #ffffff;
+  color: #212121;
 }
 .logo:hover,
-.logo:focus {
+.logotip:hover {
   color: #2196f3;
 }
-
-.saite-nav {
+/*site-nav*/
+.saite-nav .saite-nav1 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  position: absolute;
-  width: 294px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
+  color: var(--title-text-color);
+}
+/*.current {
   
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-.saite-nav:hover,
-.saite-nav:focus {
+
+  background: #2196f3;
+}*/
+.saite-nav1:hover,
+.saite-nav1:focus {
   color: #2196f3;
 }
-.portfolio {
-  position: absolute;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #212121;
-}
-.portfolio:hover,
-.portfolio:focus {
-  color: #2196f3;
-}
-.contacts {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #212121;
-}
-.contacts:hover,
-.contacts:focus {
-  color: #2196f3;
-}
-.mail {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-
+.saite-contacts {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -123,25 +85,11 @@ p {
 
   color: #757575;
 }
-
-.phone {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #757575;
+.saite-contacts:hover {
+  color: #2196f3;
 }
-/*баннер*/
-.head {
+/* bg*/
+/*.bg {
   position: absolute;
   width: 1600px;
   height: 600px;
@@ -149,115 +97,43 @@ p {
   top: 80px;
 
   background: #2f303a;
+}*/
+/*hero-title*/
+.hero-title {
+  color: var(--title-text-color);
 }
-.head-text {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 200px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: #ffffff;
-  margin-top: 200px 452px 280px 452px;
-}
-/*кнопка на баннере*/
-.button-head {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 675px;
-  top: 400px;
-  padding: 10px 32px;
-  margin: 10px 32px;
-  background: #2196f3;
+/*button*/
+.buttons {
+  background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.buttons {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 675px;
-  top: 400px;
-  padding: 10px 32px;
-  margin: 10px 32px;
-  background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-  
-  
+.buttos:hover {
+  color: #2196f3;
+}
+.but {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
 }
 
-.but{
-  position: absolute;
-  width: 200px;
- 
-  left: 1px;
-  top: 8px;
+/*sectio-about-us*/
+.about-us .section-about-us-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 187% */
-
-
-color: #ffffff;
+  color: var(--title-text-color);
 }
-.buttons:hover{
-
-background: #188CE8;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-}
-/*нпши приимущества*/
-.feature1 {
-  position: absolute;
-  width: 270px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
-}
-.feature2 {
-  position: absolute;
-  width: 270px;
-  height: 101px;
-  left: 515px;
-  top: 774px;
-}
-.feature3 {
-  position: absolute;
-  width: 270px;
-  height: 101px;
-  left: 815px;
-  top: 774px;
-}
-.feature4 {
-  position: absolute;
-  width: 270px;
-  height: 101px;
-  left: 1115px;
-  top: 774px;
-}
-/*чем мы занимаемся*/
+/*what-we-do*/
 .what-we-do {
-  position: absolute;
-  width: 615px;
-  height: 42px;
-  left: 490px;
-  top: 969px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -266,47 +142,10 @@ border-radius: 4px;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
-
-.box1 {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 215px;
-  top: 1061px;
-}
-.box2 {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 615px;
-  top: 1061px;
-}
-.box3 {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 1015px;
-  top: 1061px;
-}
-/*наша команлда*/
-.we {
-  position: absolute;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1600px;
-
-  background: #f5f4fa;
-}
-.we1 {
-  position: absolute;
-  width: 615px;
-  height: 42px;
-  left: 490px;
-  top: 8px;
-
+/*our-team*/
+.we-1 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -315,66 +154,83 @@ border-radius: 4px;
   text-align: center;
   letter-spacing: 0.03em;
 
+  color: var(--title-text-color);
+}
+h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
   color: #212121;
 }
-.team-card-1 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 180px;
+/*footer*/
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
 
-  background: #ffffff;
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.team-card-2 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 515px;
-  top: 180px;
-  background: #ffffff;
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.team-card-3 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 815px;
-  top: 180px;
-
-  background: #ffffff;
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.team-card-4 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 1115px;
-  top: 180px;
-
-  background: #ffffff;
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.ihor1 {
-  text-align: center;
   letter-spacing: 0.03em;
+  color: #080808;
 }
-/*футер с лого и контактами*/
-.footer-nav {
-  position: absolute;
+.footer-logo1 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+}
+.footer-logo:hover,
+.footer-logo1:hover {
+  color: #2196f3;
+}
+.footer-address {
+  width: 231px;
+  height: 81px;
+  left: 215px;
+  top: 2208px;
+}
+.addres {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.footer-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-phone {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-bg {
   width: 1600px;
   height: 252px;
   left: 0px;
@@ -382,395 +238,19 @@ border-radius: 4px;
 
   background: #2f303a;
 }
-.web {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 60px;
-
+/*portfolio html*/
+.portfolio-logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+  /* identical to box height */
 
   letter-spacing: 0.03em;
-
-  color: #f9f9fa;
-}
-.address {
-  position: absolute;
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 100px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-
-  letter-spacing: 0.03em;
-
-  color: #ffffff;
-}
-.contacts2 {
-  position: absolute;
-  width: 231px;
-  height: 21px;
-  left: 170px;
-  top: 120px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-
-  color: #757575;
-}
-.logo1 {
   color: #2196f3;
 }
-
-/*фон и шрифты*/
-.body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 1130px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-a {
-  text-decoration: none;
-}
-ul {
-  list-style: none;
-}
-p {
-  color: #757575;
-}
-/*логотип*/
-.logos {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-
-  letter-spacing: 0.03em;
-  color: black;
-}
-.logos:hover,
-.logos:focus {
-  color: #2196f3;
-}
-.logos1 {
-  color: #2196f3;
-}
-/*основная навигация*/
-.header-nav {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-
-  background: #ffffff;
-}
-.line {
-  position: absolute;
-  width: 1600px;
-  height: 0px;
-  left: 0px;
-  top: 80px;
-
-  border: 1px solid #ececec;
-}
-.studio {
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #212121;
-}
-.studio:hover,
-.studio:focus,
-.portfolio:hover,
-.portfolio:focus,
-.contacts:hover,
-.contcts:focus {
-  color: #2196f3;
-}
-.portfolio {
-  position: absolute;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-  
-}
-.contacts {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #212121;
-}
-.mails {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #757575;
-}
-.phones {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #757575;
-}
-/*основной блок*/
-.mains {
-  position: absolute;
-  width: 1000px;
-  height: 1000px;
-  left: 30px;
-  top: 174px;
-}
-/*фильтр*/
-.filters {
-  position: absolute;
-  width: 300px;
-  height: 54px;
-  left: 20px;
-  top: 174px
-
-  filters: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-/*навигация по проектам*/
-.vse {
-  position: absolute;
-  width: 73px;
-  height: 38px;
-  left: 495px;
-  top: 100px;
- 
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.sites {
-  position: absolute;
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 100px;
-
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.apps {
-  position: absolute;
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  top: 100px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.decinger {
-  position: absolute;
-  width: 103px;
-  height: 38px;
-  left: 865px;
-  top: 100px;
-
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.marketings {
-  position: absolute;
-  width: 130px;
-  height: 38px;
-  left: 976px;
-  top: 100px;
-
-  background: #f5f4fa;
-  border-radius: 4px;
-cursor: pointer;
-}
-
-/*наши проекты*/
-.project-1 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 70px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-
-.project-2 {
-  position: absolute;
-  width: 370px;
-  height: 384px;
-  left: 615px;
-  top: 70px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.project-3 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 70px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.project-4 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 500px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.project-5 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 500px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.project-6 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 500px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.project-7 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 950px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.project-8 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 950px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-.project-9 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 950px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-/*футер*/
-.footer-nav1 {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2200px;
-
-  background: #2f303a;
-}
-/*футер лого*/
-.web {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 60px;
-
+.portfolio-logotipe {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -780,121 +260,5 @@ cursor: pointer;
 
   letter-spacing: 0.03em;
 
-  color: #f9f9fa;
-}
-.address {
-  position: absolute;
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 100px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: #ffffff;
-}
-.contacts2 {
-  position: absolute;
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 130px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  color: #757575;
-}
-
-.contacts3 {
-  
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 140px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
-}
-.contacts4 {
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 165px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #757575;
-}
-.logo1 {
-  color: #2196f3;
-}
-.contacts5 {
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 140px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #757575;
-}
-.contacts6 {
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 165px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #757575;
-}
-.visually {
-display: none;
-}
-.vse:hover,
-.sites:hover,
-.apps:hover,
-.decinger:hover,
-.marketings:hover{
-  background: #2196F3;
-
+  color: #000000;
 }

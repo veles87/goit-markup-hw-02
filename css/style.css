@@ -1,19 +1,10 @@
 /*фон основной страницы*/
-:root  {
-    --text-general-font: "Roboto",  sans-serif;
-    --prymory-text-color: #757575;
-    --title-text-color: #212121;
-    --whiet-text-color: #ffffff;
-    --hover-focus-color: #2196f3;
-    --black-text-color: #000000;
-    --background-fone: #2f303a;
-}
+
 .body {
   font-family: "Roboto", sans-serif;
   font-family: "Raleway", sans-serif;
   background-color: #fff;
 }
-
 a {
   text-decoration: none;
 }
@@ -25,7 +16,7 @@ p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -37,7 +28,7 @@ p {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   color: #2196f3;
 }
 .logotip {
@@ -45,7 +36,7 @@ p {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -61,10 +52,10 @@ p {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: var(--title-text-color);
+  color: #212121;
 }
 /*.current {
   
@@ -80,7 +71,7 @@ p {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #757575;
@@ -100,7 +91,13 @@ p {
 }*/
 /*hero-title*/
 .hero-title {
-  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+  color: #212121;
 }
 /*button*/
 .buttons {
@@ -119,7 +116,7 @@ p {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
 
   display: flex;
@@ -135,7 +132,7 @@ p {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
 
   color: #ffffff;
 }
@@ -145,11 +142,11 @@ p {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--title-text-color);
+  color: #212121;
 }
 /*what-we-do*/
 .what-we-do {
@@ -157,11 +154,11 @@ p {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--title-text-color);
+  color: #212121;
 }
 /*our-team*/
 .we-1 {
@@ -169,18 +166,18 @@ p {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--title-text-color);
+  color: #212121;
 }
 h3 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   color: #212121;
 }
 /*footer*/
@@ -189,22 +186,26 @@ h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
-  color: #080808;
+
+  color: #ffffff;
 }
 .footer-logo1 {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #2196f3;
 }
 .footer-logo:hover,
-.footer-logo1:hover {
+.footer-logo1:hover,
+.footer-mail:hover,
+.footer-phone:hover {
   color: #2196f3;
 }
 .footer-address {
@@ -218,7 +219,7 @@ h3 {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -230,7 +231,7 @@ h3 {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -242,7 +243,7 @@ h3 {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -264,7 +265,7 @@ h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -275,7 +276,7 @@ h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -287,7 +288,7 @@ h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #212121;
@@ -304,7 +305,7 @@ h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #757575;
@@ -326,7 +327,7 @@ h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
 
   color: #212121;
   border-radius: 4px;
@@ -337,7 +338,7 @@ h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
 
   color: #212121;
   border-radius: 4px;
@@ -348,7 +349,7 @@ h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
 
   color: #212121;
   border-radius: 4px;
@@ -359,7 +360,7 @@ h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   /* identical to box height, or 162% */
 
   color: #212121;
@@ -371,7 +372,7 @@ h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   /* identical to box height, or 162% */
 
   color: #212121;
@@ -407,7 +408,7 @@ h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
@@ -419,7 +420,7 @@ h3 {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
 
   letter-spacing: 0.03em;
@@ -524,12 +525,18 @@ h3 {
 
   background: #2f303a;
 }
+.portfolio-contacts:hover,
+.web:hover,
+.portfolio-mail:hover,
+.portfolio-phone:hover {
+  color: #2196f3;
+}
 .logo1 {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -541,7 +548,7 @@ h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -553,7 +560,7 @@ h3 {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -565,7 +572,7 @@ h3 {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -577,7 +584,7 @@ h3 {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;

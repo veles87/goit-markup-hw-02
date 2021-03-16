@@ -20,16 +20,22 @@
     <!--шапка-->
     <header>
 
-        <nav >
+        <nav class="nav">
             <a href="" class="logo">Web<span class="logotip">Studio</span></a>
-            <ul  class="saite-nav">
+              <ul>
                 <li>
                     <a href="./index.html" class="saite-nav1 current" >Студия</a>
                 </li>
-                <li><a href="./portfolio.html" class="saite-nav1">Портфолио</a></li>
-                <li><a href=""  class="saite-nav1">Контакты</a></li>
-            </ul>
+                <li>
+                    <a href="./portfolio.html" class="saite-nav1">Портфолио</a>
+                </li>
+                <li>
+                    <a href=""  class="saite-nav1">Контакты</a>
+                    </li>
+                </ul>
+           
         </nav>
+      
         <ul class="contacts">
             <li><a href="mailto:info@devstudio.com" class="saite-contacts">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111" class="saite-contacts">+38 096 111 11 11</a></li>
@@ -38,16 +44,18 @@
     </header>
     <!--Уникальный контент-->
     <main>
-        <section>
-
-            <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА </h1>
+        <section >
+<div class="bg">
+            <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА </h1>
             <button type="button" class="buttons"><span class="buts">Заказать услугу</span></button>
-        </section>
+    </div>    
+</section>
         <!-- Наше преимущество-->
         <section class="section-about-us">
+            <div class="conteiner">
             <h2></h2>
             <ul class="about-us">
-                <li >
+                <li class="feature1" >
                     <h3 class="section-about-us-title">Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
@@ -64,16 +72,19 @@
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!--Чем мы занимаемся-->
         <section>
             <!--Чем мы занимаемся-->
+            
             <h2 class="what-we-do">Чем мы занимаемся</h2>
             <ul class="block1">
-                <li> <img src="./images/img.jpg" alt="набор кода" width="370" height="294" class="box1"></li>
-                <li><img src="./images/img1.jpg" alt="мобильное устройство" width="370" height="294" class="box2"></li>
-                <li><img src="./images/img2.jpg" alt="цветовая палитра" width="370" height="294" class="box3"></li>
+                <li class="photo-main"> <img src="./images/img.jpg" alt="набор кода" width="370" height="294" class="box1"></li>
+                <li class="photo-main"><img src="./images/img1.jpg" alt="мобильное устройство" width="370" height="294" class="box2"></li>
+                <li class="photo-main"><img src="./images/img2.jpg" alt="цветовая палитра" width="370" height="294" class="box3"></li>
             </ul>
+           
         </section>
         <!--Наша команда-->
         <section class="we">

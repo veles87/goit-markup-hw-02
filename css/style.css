@@ -69,7 +69,6 @@ p {
   font-size: 26px;
   line-height: 1.19;
   color: var(--hover-color);
-  /* margin: 24px 1240px 25px 215px;*/
 }
 .logotip {
   font-family: Raleway;
@@ -86,8 +85,15 @@ p {
 .logotip:hover {
   color: var(--hover-color);
 }
+
 /*site-nav*/
-.site-nav {
+
+.navigations {
+  height: 16px;
+  width: 294px;
+  left: 453px;
+  top: 32px;
+  display: flex;
 }
 .saite-nav1 {
   font-family: Roboto;
@@ -121,6 +127,7 @@ p {
 .saite-contacts:hover {
   color: var(--hover-color);
 }
+
 /* bg*/
 .bg {
   height: 600px;
